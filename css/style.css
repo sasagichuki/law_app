@@ -1,0 +1,63 @@
+/*Login background*/
+
+.login_screen {
+	background: #abcedf url("../images/bg_blue_white_lines.jpg") repeat top left;
+}
+
+/*Login input field */
+
+.login_screen .user_name_field .password_field{
+	width: 211px;
+	height: 36px;
+	border-radius: 20px;
+	/*box-shadow: 0px 0px 0px #fff;*/
+	border: 1px solid #89c7ef;
+   font: 100 18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #555;
+	background: url("..images/icons/user_login.png");
+	background-position: 10px 10px;
+/*	text-indent: 30px;*/
+	padding-left: 35px;
+}
+
+/*icon for password field*/
+
+.login_screen  .password_field{
+	background: #f5f5f5 url('../images/icons/key.png') no-repeat;
+	background-position: 10px 10px;
+	
+}
+/*All placeholders*/
+
+::-webkit-input-placeholder {
+   color: #888;
+   font: 100 18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+/*   text-indent: 30px;*/
+   
+}
+
+/*Disappear on focus*/
+
+:focus::-webkit-input-placeholder{color:transparent;}
+
+
+/*login white box*/
+
+.login_screen  .login_content{
+	background: #fefefe;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width:380px;
+	height:206px;
+	margin-left: -190px;
+	margin-top:-103px ;
+	text-align:center;
+	border-radius: 8px;
+	box-shadow: 2px 2px 3px #555;
+}
+
+.login_screen  .login_button {
+	width: 150px;
+	margin-left: 30%;
+}
